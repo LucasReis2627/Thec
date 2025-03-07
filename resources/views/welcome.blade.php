@@ -51,6 +51,7 @@
         </header>
         
         <h1>bem vindo</h1>
+        <p>Conheça nossa loja!</p>
 
         @if (Route::has('login'))
             <div class="h-14.5 hidden lg:block"></div>
