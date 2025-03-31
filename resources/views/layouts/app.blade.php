@@ -14,6 +14,14 @@
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
+    <style>
+        .bg-dourado{
+            background-color: #FFD700;
+        }
+        .bg-dourado-claro{
+            background-color: #FFf3B0
+        }
+        </style>
     <body class="font-sans antialiased">
         <div class="min-h-screen bg-gray-100">
             @include('layouts.navigation')
